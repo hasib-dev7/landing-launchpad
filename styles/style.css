@@ -143,6 +143,63 @@ body {
 	font-weight: 400;
 	color: #00000091;
 }
+/* feedback section */
+
+.feedback-section {
+	padding-top: 120px;
+}
+.feedback-cards {
+	padding-top: 50px;
+	display: flex;
+	justify-content: space-between;
+	gap: 24px;
+}
+.card-style {
+	padding: 24px;
+	border-radius: 14px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.feedback-title {
+	color: #252432;
+	font-size: 42px;
+	font-weight: 700;
+	text-align: center;
+}
+.icon {
+	display: flex;
+	gap: 5px;
+}
+.heading-title {
+	font-style: 20px;
+	font-weight: 600;
+	color: #000000e1;
+	padding-top: 24px;
+}
+.heading-text {
+	font-size: 16px;
+	font-weight: 400;
+	color: #000000ce;
+	padding-top: 15px;
+}
+.feedback-logo {
+	display: flex;
+	gap: 10px;
+	padding-top: 24px;
+}
+.logo-image {
+	width: 100%;
+	border-radius: 50%;
+}
+.feedback-logo-title {
+	font-style: 16px;
+	font-weight: 500;
+	color: #000000a0;
+}
+.feedback-logo-text {
+	font-style: 16px;
+	font-weight: 500;
+	color: #00000052;
+}
 /* touch section  */
 .touch-section {
 	padding-top: 120px;
