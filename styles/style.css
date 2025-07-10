@@ -20,7 +20,7 @@
 .content-area {
 	max-width: 1200px;
 	margin: 0 auto;
-	border: 1px solid skyblue;
+	border: 1px solid green;
 }
 /* button global */
 .btn-global {
@@ -66,3 +66,35 @@
 	display: flex;
 	justify-content: center;
 }
+/* header section end */
+/* main section start */
+/* action section */
+.action-section {
+	padding-top: 120px;
+	display: flex;
+	justify-content: space-between;
+}
+.text-section {
+	display: flex;
+	flex-direction: column;
+	/* justify-items: center; */
+	justify-content: center;
+}
+.action-title {
+	font-size: 42px;
+	font-weight: 700;
+	color: #252432;
+}
+.action-text {
+	max-width: 60%;
+	font-size: 24px;
+	font-weight: normal;
+	color: #252432;
+	padding: 13px 0;
+}
+.action-img {
+	width: 100%;
+	height: 100%;
+	border-radius: 24px;
+}
+/* main section end */
