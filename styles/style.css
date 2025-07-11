@@ -1,7 +1,5 @@
 /*  */
-body {
-	background-color: #ffffff7b;
-}
+
 /*  */
 * {
 	margin: 0;
@@ -19,12 +17,10 @@ body {
 .container {
 	max-width: 1400px;
 	margin: 0 auto;
-	border: 1px solid red;
 }
 .content-area {
 	max-width: 1200px;
 	margin: 0 auto;
-	border: 1px solid green;
 }
 /* button global */
 .btn-global {
@@ -35,7 +31,15 @@ body {
 	border-radius: 8px;
 	border: none;
 	cursor: pointer;
+	/* Smooth animation */
+	transition: background-color 0.3s ease, transform 0.3s ease;
 }
+
+.btn-global:hover {
+	background-color: #7c78ff;
+	color: #000000;
+}
+
 /* header section */
 .header {
 	background-image: url("../images/Hero-bg.png");
@@ -73,7 +77,9 @@ body {
 }
 /* header section end */
 /* main section start */
-
+.main {
+	background-color: #f5f8ff;
+}
 /* action section  */
 .action-section {
 	padding-top: 120px;
@@ -200,9 +206,47 @@ body {
 	font-weight: 500;
 	color: #00000052;
 }
+/* fouce section */
+.fouce-section {
+	margin-top: 120px;
+	background-color: #ffffff;
+	border-radius: 16px;
+}
+.focus {
+	max-width: 80%;
+	margin: 0 auto;
+	padding: 70px 0;
+}
+.focus-text-section {
+	max-width: 60%;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.focus-title {
+	font-size: 50px;
+	font-weight: 700;
+	color: #000000;
+	text-align: center;
+}
+.focus-text {
+	font-size: 16px;
+	font-weight: 400;
+	color: #0000007d;
+	text-align: center;
+	margin: 22px 0;
+}
+.fouce-btn {
+	display: flex;
+	justify-content: center;
+}
+.fouce-image {
+	width: 100%;
+	border-radius: 34px;
+}
 /* touch section  */
 .touch-section {
 	padding-top: 120px;
+	padding-bottom: 80px;
 }
 .touch {
 	display: flex;
@@ -245,7 +289,7 @@ body {
 /* main section end */
 /* footer section */
 .footer-section {
-	padding-top: 150px;
+	padding-top: 100px;
 	padding-bottom: 100px;
 }
 .footer {
@@ -263,6 +307,7 @@ body {
 	font-weight: 400;
 	color: #8987a1;
 	text-align: center;
+	margin-top: 20px;
 }
 .footer-list ul {
 	display: flex;
